@@ -12,8 +12,11 @@ exports.handler = async (event) => {
             MessageAction: "RESEND",
             TemporaryPassword: "Sachithra@142"
         }).promise();
-
+console.log("dataa")
+console.log(data)
     } catch (err) {
+        console.log("err")
+console.log(err)
         // error handling goes here
     };
 
