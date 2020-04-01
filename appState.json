@@ -21,7 +21,16 @@
           "memory": 128,
           "layers": []
         },
-        "triggers": []
+        "triggers": [],
+        "testCases": {
+          "a7e5a69f-7778-434f-8092-a95733191686": {
+            "id": "a7e5a69f-7778-434f-8092-a95733191686",
+            "name": "Test event",
+            "functionId": "a91bcd14-2c2c-4d24-a7ba-d5f279baa7d9",
+            "event": "{\"key1\": \"value1\", \"key2\": \"value2\", \"key3\": \"value3\"}",
+            "eventTemplate": "hello-world"
+          }
+        }
       }
     },
     "openFiles": [
@@ -325,7 +334,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585714475909
+    "lastSave": 1585714635950
   },
   "VCS_STATE": {
     "provider": "GitHub",
