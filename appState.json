@@ -11,7 +11,7 @@
         "isRemovable": true,
         "filePath": "sample.js",
         "cursor": {
-          "lineNumber": 19,
+          "lineNumber": 15,
           "column": 16
         },
         "config": {
@@ -295,7 +295,8 @@
         "type": "CognitoIdentityServiceProvider",
         "config": {
           "mode": 0,
-          "name": "IndunilpoolAp1",
+          "name": "Indunil pool-Ap 1",
+          "arn": "arn:aws:cognito-idp:us-east-1:318300609668:userpool/undefined",
           "userPool": {
             "Name": "Indunil pool-Ap 1",
             "isNew": true,
@@ -482,7 +483,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1585717252546
+    "lastSave": 1585717381915
   },
   "VCS_STATE": {
     "provider": "GitHub",

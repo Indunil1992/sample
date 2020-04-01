@@ -4,18 +4,14 @@ const cognito_idp = new AWS.CognitoIdentityServiceProvider();
 exports.handler = async (event) => {
 
     try {
-        let data = await cognito_idp.adminCreateUser({
+        let data = await cognito_idp.adminEnableUser({
             UserPoolId: process.env.UserPoolId_cognitoIndunilpoolAp1,
-            Username: "indunil",
-            DesiredDeliveryMediums: ['EMAIL'],
-            ForceAliasCreation: false,
-            MessageAction: "RESEND",
-            TemporaryPassword: "Sachithra@142"
+            Username: "indunil"
         }).promise();
 console.log("dataa")
 console.log(data)
     } catch (err) {
-        console.log("err")
+        console.log("errrrrr")
 console.log(err)
         // error handling goes here
     };
